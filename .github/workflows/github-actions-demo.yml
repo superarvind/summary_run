@@ -17,4 +17,4 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Adding markdown
-        run: echo '### Hello world! 🚀' >> $GITHUB_STEP_SUMMARY
+        run: echo '### Hello world! `myworld` ! 🚀' >> $GITHUB_STEP_SUMMARY
